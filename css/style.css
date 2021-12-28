@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffe5cc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container {
+    background-color: #ffffff; 
+    background-image: url("../images/papel-pautado.jpeg");   
+    text-align: center;
+    width: 600px;
+    height: 800px;
+    margin: 0px auto;
+}
+#container h1 {
+    color: red;
+    padding: 5px;
+}
+.recipes {
+    padding: 5px;
+    text-align: left;
+    margin: 10px 0px 10px 60px;
+
+}
+.recipes a {
+    text-decoration: none;
+}
+.fas {
+    margin-right: 10px;
+}
+.recipes a:link {
+    color: blue;
+}
+.recipes a:visited {
+    color: blue;
+}
+.recipes a:hover {
+    color: red;
+}
